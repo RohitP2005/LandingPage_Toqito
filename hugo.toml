@@ -1,19 +1,26 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My Geekdoc Site"
+baseURL = "http://localhost"
+title = "Geekdocs"
 theme = "hugo-geekdoc"
 
+pluralizeListTitles = false
+
+# Geekdoc required configuration
 pygmentsUseClasses = true
 pygmentsCodeFences = true
-enableGitInfo = true
+disablePathToLower = true
+
+# Required if you want to render robots.txt template
 enableRobotsTXT = true
-[pagination]
-  pagerSize = 20
 
+# Needed for mermaid shortcodes
+[markup]
+  [markup.goldmark.renderer]
+    # Needed for mermaid shortcode or when nesting shortcodes (e.g. img within
+    # columns or tabs)
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
 
-[params]
-  geekdocRepo = "https://github.com/yourname/your-repo"
-  geekdocEditPath = "edit/main/content"
-  geekdocDateFormat = "Jan 2, 2006"
-  geekdocSearch = true
-
+[taxonomies]
+   tag = "tags"
