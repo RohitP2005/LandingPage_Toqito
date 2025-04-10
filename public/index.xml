@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Geekdoc Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My Geekdoc Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1313/docs/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/</guid>
+      <description>&lt;div class=&#34;flex align-center gdoc-page__anchorwrap&#34;&gt;&#xA;    &lt;h1 id=&#34;hello-&#34;&#xA;    &gt;&#xA;        Hello 👋&#xA;    &lt;/h1&gt;&#xA;    &lt;a data-clipboard-text=&#34;http://localhost:1313/docs/#hello-&#34; class=&#34;gdoc-page__anchor clip flex align-center&#34; title=&#34;Anchor to: Hello 👋&#34; aria-label=&#34;Anchor to: Hello 👋&#34; href=&#34;#hello-&#34;&gt;&#xA;        &lt;svg class=&#34;gdoc-icon gdoc_link&#34;&gt;&lt;use xlink:href=&#34;#gdoc_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Welcome to my Geekdoc-powered site!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
